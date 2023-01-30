@@ -1,9 +1,29 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
-    <ActionBar title="My App" icon="" />
-
-    <StackLayout class="p-20">
-        <Label text="Tap the button" class="h1 text-center" />
-        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
-        <Label text="{{ message }}" class="h2 text-center" textWrap="true" />
-    </StackLayout>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <FlexboxLayout backgroundColor="#3c495e" flexDirection="column">
+        <FlexboxLayout height="25%" backgroundColor="#3c495e" flexDirection="column" margin="15" justifyContent="space-around">
+            <label text="16*5=" height="25%" backgroundColor="#43b883" textAlignment="right" fontSize="24" paddingRight="15" />
+            <label text="80" height="60%" backgroundColor="#43b883" textAlignment="right" paddingTop="20" paddingRight="15" fontSize="50" />
+        </FlexboxLayout>
+        <FlexboxLayout height="75%" backgroundColor="#3c495e" flexDirection="column">
+            <FlexboxLayout height="100%" backgroundColor="#3c495e" flexWrap="wrap" margin="15" justifyContent="space-around" alignContent="space-between">
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="С" width="73%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="÷" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="7" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="8" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="9" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="x" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="4" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="5" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="6" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="-" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="1" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="2" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="3" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="+" width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="0" width="48%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="." width="23%" backgroundColor="#43b883" />
+                <label paddingTop="10" fontSize="50" textAlignment="center" height="100*" text="=" width="23%" backgroundColor="#43b883" />
+            </FlexboxLayout>
+        </FlexboxLayout>
+    </FlexboxLayout>
 </Page>
